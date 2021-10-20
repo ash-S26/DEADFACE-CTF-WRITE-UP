@@ -6,4 +6,59 @@ Use the MySQL database dump from Body Count
 
 Solution :-
 Steps :-
-1) seperate out data of employe and loan from given database file ()
+1) seperate out data of employe and loan from given database file (unzip the demonne.zip file (password-d34df4c3) which consist of data)
+2) For the given challenge we need to filter as per this hirarchy:-
+    employees from CA -> employee who gave loan of type 3 (Small Business) -> City with max of balance 
+    
+Code:- Can be found in resources as .py file
+
+Code Output :-
+ Riverside 13723.0
+ San Diego 15231.0
+ Long Beach 33404.0
+ Oakland 22549.0
+ Sacramento 40566.0
+ Garden Grove 23228.0
+ Fresno 26201.0
+ Inglewood 15851.0
+ San Jose 33641.0
+ Burbank 5892.0
+ Ventura 12855.0
+ Fresno 2669.0
+ Oakland 33882.0
+ San Diego 3572.0
+ Pasadena 31949.0
+ North Hollywood 45467.0
+ San Jose 1016.0
+ Van Nuys 25293.0
+ Oakland 5872.0
+ Santa Clara 43950.0
+ Bakersfield 40110.0
+ Santa Cruz 20615.0
+ Oakland 28297.0
+ North Hollywood 18601.0
+ San Diego 36185.0
+ Petaluma 25157.0
+ Concord 10976.0
+ San Francisco 37824.0
+ Fullerton 32850.0
+ Inglewood 30168.0
+ Santa Monica 29365.0
+ Huntington Beach 44377.0
+ Garden Grove 24187.0
+ Bakersfield 46094.0
+ San Francisco 25511.0
+ Los Angeles 37324.0
+ Stockton 37270.0
+ Fresno 21936.0
+ Fresno 18182.0
+ Pasadena 41143.0
+ Santa Barbara 41095.0
+ Santa Ana 32418.0
+ San Francisco 17398.0
+ Stockton 2359.0
+ Whittier 5141.0
+
+Now we can sum up which city have highest balance and arrange in flag format :
+flag{Oakland_$90,600.00}  [if i remember flag was this not sure]
+ 
