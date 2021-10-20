@@ -1,0 +1,9 @@
+For this challenge we were provided with the database and we need to filter of the data.
+
+Challenge statement :-
+De Monne has reason to believe that DEADFACE will target loans issued by employees in California. It only makes sense that they'll then target the city with the highest dollar value of loans issued. Which city in California has the most money in outstanding Small Business loans? Submit the city and dollar value as the flag in this format: flag{City_$#,###.##}
+Use the MySQL database dump from Body Count
+
+Solution :-
+Steps :-
+1) seperate out data of employe and loan from given database file ()
